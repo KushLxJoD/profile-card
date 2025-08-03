@@ -1,0 +1,63 @@
+* {
+  border: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+    background-color: antiquewhite;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.profilecard{
+    border: 3px solid rgb(49, 3, 12);
+    border-radius: 20px;
+    height: 410px;
+    width: 250px;
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 20px 40px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+.profilecard:hover{
+   background-color: #334155;
+}
+img:hover{
+    box-shadow: 10px 20px 22px rgba(0, 0, 0, 0.2);
+}
+
+a:hover{
+    background-color: aquamarine;
+}
+img{
+    height: 160px;
+    width: 140px;
+    border-radius: 50%;
+    border: 1px solid black;
+   
+}
+.photo{
+    padding-top: 10px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3,p{
+    text-align: center;
+    color: aliceblue;
+}
+.socialmedia p a{
+  color: rgb(24, 119, 242);
+
+}
